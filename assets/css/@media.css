@@ -13,6 +13,31 @@
     }
 }
 
+@media (min-width: 376px) and (max-width:424px) {
+    body {
+        background-position: center;
+    }
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+
+    p {
+        font-size: 16px;
+    }
+    .buttons-area a {
+        padding: 20px 70px;
+        font-size: 16px;
+    }
+
+}
+
 @media (min-width: 320px) and (max-width:375px) {
     body {
         background-position: center right;
